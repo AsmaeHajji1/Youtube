@@ -182,6 +182,18 @@ p
     border-radius: 50%;
     background-color:grey;
 }
+.chatacc
+{
+    height: 19px;
+    width:19px;
+    border-radius: 50%;
+}
+.imgacc
+{ height: 19px;
+    width:19px;
+    border-radius: 50%;
+
+}
 .adghaacc
 {  height: 19px;
     width:19px;
@@ -279,14 +291,14 @@ p
 .rectanoth2
 { display: flex;
     flex-direction:row;
-    gap:200px;
+    gap:35px;
 
 }
 .rectanfin
 {
     display: flex;
     flex-direction:row;
-    gap:200px;
+    gap:35px;
 }
 .rectancook
 {
