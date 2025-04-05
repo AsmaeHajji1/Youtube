@@ -1,0 +1,817 @@
+body
+{
+    background-color:#0f0f0f;
+}
+
+.rectangle
+{
+    height: 1px;
+    width: 18px;
+   background-color:#fff
+}
+.titre1
+{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 5px;
+    margin-top:14px;
+    margin-left: 7px;
+}
+.titre1:hover 
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.cercle1
+{
+    height: 37px;
+    width: 97px;
+    margin-top: 5px;
+    background-color:  #282828;
+    margin-left: 2px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.creer
+{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+.acceuil
+{
+  height: 23px;
+  width: 23px;
+  margin-left: 8px;
+}
+.cercle2
+{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color:#282828;
+    margin-left:16px;
+    margin-right: 16px;
+    margin-top: 4px;
+}
+.sonnerie
+{
+    height: 33px;
+    width: 39px;
+    border-bottom-right-radius: 18px;
+}
+.cercle3
+{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: rgb(27 209 92);
+    margin-left: 10px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p
+{
+    color: white;
+    margin: 0px;
+    font-size: 12px;
+}
+.titre2
+{  display: flex;
+    justify-content:space-between;
+    margin-right: 20px;
+}
+.divtitre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cercle1:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.cercle2:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.cercle3:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.cook
+{
+    width: 395px;
+    height: 222px;
+    border-radius: 5%
+}
+.vid
+{
+    width: 395px;
+    height: 222px;
+    border-radius: 5%
+}
+.rectangle1
+{
+    width: 395px;
+    height: 222px;
+    border-radius: 5%;
+    background-color:grey;
+}
+.othmane
+{
+    width: 395px;
+    height: 222px;
+    border-radius: 5%;
+}
+.rire
+{
+    width: 395px;
+    height: 222px;
+    border-radius: 5%;
+}
+.deco
+{
+    width: 395px;
+    height: 222px;
+    border-radius: 5%;
+}
+.bean
+{    width: 395px;
+    height: 222px;
+    border-radius: 5%;
+
+}
+.adgha
+{
+    width: 395px;
+    height: 222px;
+    border-radius: 5%;
+}
+.spons
+{
+    width: 395px;
+    height: 222px;
+    border: none;
+    border-radius: 5%;
+}
+.spong
+{
+    width: 395px;
+    height: 222px;
+    border-radius: 5%;
+}
+.fin
+{ height: 19px;
+    width:19px;
+    border-radius: 50%;
+
+}
+.cercle
+{
+    height: 19px;
+    width:19px;
+    border-radius: 50%;
+    background-color:grey;
+}
+.adghaacc
+{  height: 19px;
+    width:19px;
+    border-radius: 50%;
+
+}
+.decoimg
+{
+    height: 19px;
+    width:19px;
+    border-radius: 50%;
+}
+.spongacc
+{
+    height: 19px;
+    width:19px;
+    border-radius: 50%;
+}
+.Beanacc
+{
+    height: 19px;
+    width:19px;
+    border-radius: 50%;
+}
+.fenet
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/*.grrectan
+{  height: 8px;
+    width: 190px;
+    background-color: #282828;
+   /* background-color:grey;
+    border-radius: 2%;
+
+}*/
+.pttfenet
+{  display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.span1
+{ color: white;
+    font-weight: bold;
+
+}
+.span2
+{  font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    color:rgb(124, 124, 124); 
+
+}
+.ptrectang:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+/*.ptrectang
+{
+      height: 8px;
+    width: 150px;
+  background-color:grey;
+    border-radius: 2%;
+}*/
+.rectanadghal{
+    display: flex;
+    flex-direction:row;
+    gap: 48px;
+}
+.rectanfin
+{
+    display: flex;
+    flex-direction:row;
+    gap: 120px;
+}
+.rectanspong{
+    display: flex;
+    flex-direction:row;
+    gap: 75px;
+}
+.rectanBean{
+    display: flex;
+    flex-direction:row;
+    gap: 110px;
+}
+.rectanoth
+{
+    display: flex;
+    flex-direction:row;
+    gap: 90px;
+}
+.rectanoth2
+{ display: flex;
+    flex-direction:row;
+    gap:200px;
+
+}
+.rectanfin
+{
+    display: flex;
+    flex-direction:row;
+    gap:200px;
+}
+.rectancook
+{
+    display: flex;
+    flex-direction:row;
+    gap: 130px;
+}
+.rectandeco{
+    display: flex;
+    flex-direction:row;
+    gap: 220px;
+}
+.corps
+{  display: flex;
+   flex-direction: row;
+    gap:20px;
+   width: fit-content;
+   justify-content: center;
+   width: 100%;
+}
+.ligne
+{
+    margin-top: 0px;
+    font-size: 15px;
+    color:rgb(124, 124, 124);
+}
+.veri
+{
+    display: flex;
+    flex-direction: row;
+}
+.pagedroite
+{   
+    display: flex;
+    flex-direction: column;
+     gap:36px;
+    margin-left: 70px;
+    margin-top: 0px;
+
+}
+.gauche
+{ display: flex;
+    flex-direction: row;
+     gap:10px;
+
+}
+.recherche
+{  background-color: #0f0f0f;
+    color:white;
+    text-indent:12px;
+    border-color:gray;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+    width: 445px;
+    height: 15px;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+h1
+{
+    color: white;
+    margin: 0px; 
+}
+
+.barre_recherchept
+{
+    display:flex;
+}
+.barre_recherchegr
+{
+    display:flex;
+    gap:19px;
+}
+.iconerecherche
+{   height:40px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.micro
+{
+    margin-top: -6px;
+    margin-left: -17px;
+   
+}
+.page
+{    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.pagegauche
+{  display: flex;
+   flex-direction: column;
+   width: fit-content;
+   margin-left: 7px;
+    position: fixed;
+    gap:30px;
+    background-color: #0f0f0f;
+}
+.home
+{
+    display: flex;
+    flex-direction: column;
+}
+.home:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+h3
+{
+   color: white;
+   margin: 0px;
+}
+.imgshorts
+{
+   height: 30px;
+   width: 30px;
+   margin-left: 4px;
+   background-color: white;
+}
+.p1
+{
+    margin-top: -20px;
+    font-size: 15px;
+    color:rgb(124, 124, 124);
+}
+.p2
+{
+    font-size: 15px;
+    color:rgb(124, 124, 124); 
+}
+p
+{   
+    font-family: "Roboto", "Arial", sans-serif;
+ 
+}
+.grrrectan
+{
+    background-color: white
+}
+.texth4
+{
+ font-size: 16px;
+ font-family: "Roboto", "Arial", sans-seri;
+ color: rgb(247, 245, 245);
+ margin-top: -2px;
+}
+.h4spong
+{
+    font-size: 16px;
+    color: rgb(247, 245, 245);
+    font-family: "Roboto", "Arial", sans-seri;
+    margin: 0px;
+}
+.h4adgha
+{
+    font-size: 16px;
+    color: rgb(247, 245, 245);
+    font-family: "Roboto", "Arial", sans-seri;
+    margin: 0px;
+}
+.h4car
+{
+    font-size: 16px;
+    color: rgb(247, 245, 245);
+    font-family: "Roboto", "Arial", sans-seri;
+    margin: 0px;
+}
+.h4oth
+{
+    font-size: 16px;
+    color: rgb(247, 245, 245);
+    font-family: "Roboto", "Arial", sans-seri;
+    margin: 0px;
+}
+.h4deco
+{
+    font-size: 16px;
+    color: rgb(247, 245, 245);
+    font-family: "Roboto", "Arial", sans-seri;
+    margin: 0px;
+}
+.h4Bean
+{
+    font-size: 16px;
+    color: rgb(247, 245, 245);
+    font-family: "Roboto", "Arial", sans-seri;
+    margin: 0px;
+}
+.pshort
+{
+    margin-left:4px;
+}
+.abonnements
+{
+    width: 30px;
+    height: 30px;
+}
+.pabonnement
+{
+    margin-left:-13px;
+}
+.pvous
+{
+    margin-left: 9px;
+}
+.imgvous
+{
+    height:27px ;
+    width:27px ;
+    margin-top:4px;
+    margin-left: 7px;
+}
+.imgabonnement
+{
+    margin-left: 6px;
+}
+.abonnements:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.short:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.vous:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.video
+{
+    width:370px; 
+    height: 220px;
+    border: none;
+    border-radius: 5%;
+}
+.titre
+{
+    font-family: 'roboto',arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color:white;
+    
+}
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}  
+
+.youtube
+{
+    display: flex;
+}
+h2
+{
+  color: white;
+
+}
+.yout
+{
+    height: 40px;
+}
+.entete
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #0f0f0f;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nouveaute
+{   margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.fok1
+{
+    font-size: 15px;
+    color:black;
+    margin-left: 13px;
+    margin-top: 7px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+}
+.minirect1
+{   background-color:#fff;
+    height:30px;
+    width: 60px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+.minirect2
+{   background-color:#282828;
+    height:31px;
+    width: 170px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+.minirect3
+{ background-color:#282828;
+    height:31px;
+    width: 80px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+
+}
+.fok2
+{
+    font-size: 15px;
+    color:#fff;
+    margin-left: 12px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+}
+.fok3
+{   font-size: 15px;
+    color:#fff;
+    margin-left: 12px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+
+}
+.minirect4
+{ background-color:#282828;
+    height:31px;
+    width: 130px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+
+}
+.fok4
+{   font-size: 15px;
+    color:#fff;
+    margin-left: 11px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+
+}
+.fok5
+{
+    font-size: 15px;
+    color:#fff;
+    margin-left: 11px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+
+}
+.minirect5
+{ background-color:#282828;
+    height:31px;
+    width: 80px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+
+}
+.fok6
+{ font-size: 15px;
+    color:#fff;
+    margin-left: 7px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+
+}
+.minirect6
+{ background-color:#282828;
+    height:31px;
+    width: 130px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+
+}
+.fok7
+{ font-size: 15px;
+    color:#fff;
+    margin-left: 7px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+
+}
+.minirect7
+{ background-color:#282828;
+    height:30px;
+    width: 40px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+
+}
+.fok8
+{ font-size: 15px;
+    color:#fff;
+    margin-left: 7px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+
+}
+.minirect8
+{ background-color:#282828;
+    height:31px;
+    width: 90px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+
+}
+.minirect9
+{ background-color:#282828;
+    height:31px;
+    width: 80px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+
+}
+.fok9
+{ font-size: 15px;
+    color:#fff;
+    margin-left: 7px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+
+}
+.minirect10
+{   background-color:#282828;
+    height:31px;
+    width: 225px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+.fok10
+{ font-size: 15px;
+    color:#fff;
+    margin-left: 7px;
+    margin-top: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: bold;
+
+}
+.minirect1:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect2:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect3:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect4:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect5:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect6:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect7:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect8:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect9:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.minirect10:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
+.plus:hover
+{
+    scale:1.2;
+    cursor:pointer;
+}
