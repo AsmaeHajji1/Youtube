@@ -189,10 +189,10 @@ p
     border-radius: 50%;
 }
 .imgacc
-{ height: 19px;
+{
+    height: 19px;
     width:19px;
     border-radius: 50%;
-
 }
 .adghaacc
 {  height: 19px;
@@ -270,7 +270,7 @@ p
 {
     display: flex;
     flex-direction:row;
-    gap: 120px;
+    gap:85px;
 }
 .rectanspong{
     display: flex;
@@ -291,14 +291,8 @@ p
 .rectanoth2
 { display: flex;
     flex-direction:row;
-    gap:35px;
+    gap:115px;
 
-}
-.rectanfin
-{
-    display: flex;
-    flex-direction:row;
-    gap:35px;
 }
 .rectancook
 {
@@ -336,7 +330,7 @@ p
     flex-direction: column;
      gap:36px;
     margin-left: 70px;
-    margin-top: 0px;
+    margin-top: 7px;
 
 }
 .gauche
