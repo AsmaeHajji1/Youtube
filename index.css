@@ -291,7 +291,7 @@ p
 .rectanoth2
 { display: flex;
     flex-direction:row;
-    gap:115px;
+    gap:100px;
 
 }
 .rectancook
