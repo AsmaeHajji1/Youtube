@@ -270,7 +270,7 @@ p
 {
     display: flex;
     flex-direction:row;
-    gap:85px;
+    gap:75px;
 }
 .rectanspong{
     display: flex;
@@ -286,7 +286,7 @@ p
 {
     display: flex;
     flex-direction:row;
-    gap: 90px;
+    gap: 80px;
 }
 .rectanoth2
 { display: flex;
