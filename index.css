@@ -241,7 +241,7 @@ p
 .span1
 { color: white;
     font-weight: bold;
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .span2
 {  font-family: "Roboto", "Arial", sans-serif;
@@ -309,7 +309,6 @@ p
 {  display: flex;
    flex-direction: row;
     gap:20px;
-   width: fit-content;
    justify-content: center;
    width: 100%;
 }
